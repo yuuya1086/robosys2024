@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+# SPDX-FileCopyrightText: 2024 Yuuya Tanaka s23c1086uu@s.chibakoudai.ip
 import sys
 
 ans = 0
