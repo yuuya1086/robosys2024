@@ -1,2 +1,2 @@
-# one
-plus_stdin
+# robosys2024
+説明
