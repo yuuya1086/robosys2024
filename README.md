@@ -1,7 +1,7 @@
 # plusコマンド
 ![test](https://github.com/yuuya1086/robosys2024/actions/workflows/test.yml/badge.svg)
 
-あ
+あa
 
 ## 必要なソフトウェア
 - Python
