@@ -12,8 +12,8 @@ n = n / 100
 BMI = m / (n * n)
 tekisei = (n * n) * 22
 
-print("あなたのBMIは"'{:.2f}'.format(BMI))
-print("適正体重は"'{:.1f}'.format(tekisei))
+print("あなたのBMI値は"'{:.2f}'.format(BMI))
+print("適正体重は{:.1f}kg".format(tekisei))
 
 if BMI < 18.50:
 
