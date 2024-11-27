@@ -17,7 +17,7 @@ print("適正体重は{:.1f}kg".format(tekisei))
 
 if BMI < 18.50:
 
-    print("瘦せてます")
+    print("瘦せ型です")
 
 elif BMI > 25.00:
 
