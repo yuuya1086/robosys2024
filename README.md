@@ -1,7 +1,10 @@
 # BMIコマンド
 ![test](https://github.com/yuuya1086/robosys2024/actions/workflows/test.yml/badge.svg)
 
-あa?
+## 概要
+
+このコマンドを使用すると、自分のBMI値、適正体重が分かります。
+
 
 ## 必要なソフトウェア
 - Python
