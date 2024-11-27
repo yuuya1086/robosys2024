@@ -1,4 +1,4 @@
-# plusコマンド
+# BMIコマンド
 ![test](https://github.com/yuuya1086/robosys2024/actions/workflows/test.yml/badge.svg)
 
 あa?
@@ -10,7 +10,7 @@
 ## テスト環境
 - Ubuntu 24.04 LTS
 
-説明
+## 説明
 
 
 #hogehoge
