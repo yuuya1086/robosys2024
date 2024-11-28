@@ -9,10 +9,12 @@
 
 以下の手順でコマンドをインストールしてください。
 
+- リポジトリをクローン
 ```bash
-リポジトリをクローン
 git clone https://github.com/yuuya1086/robosys2024.git
-
+```
+```bash
+- robosys2024に移動
 cd robosys2024
 ```
 
