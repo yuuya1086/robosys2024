@@ -12,7 +12,7 @@
 
 - gitがインストールされていない方は、以下のコマンドでインストールしてください。
 ```bash
-sudo apt install git
+   sudo apt install git
 ```
 
 　 → インストールされたら以下の手順でコマンドをインストールしてください。
@@ -21,20 +21,26 @@ sudo apt install git
 
 - リポジトリをクローン
 ```bash
-git clone https://github.com/yuuya1086/robosys2024.git
+   git clone https://github.com/yuuya1086/robosys2024.git
 ```
 - robosys2024に移動
 ```bash
-cd robosys2024
+   cd robosys2024
 ```
 
 ## 実行方法
 
 - 身長170cm、体重60㎏の人のBMI値、適正体重を知りたいとき…
+
+- ansに身長[cm]、体重[kg]を入力
 ```bash
-　 ./bmi 170 60
+   echo 170 60 > ans
 ```
-　 ↑ 上記のように入力してください。
+
+- 下記のように入力して実行する 
+```bash
+   cat ans | ./bmi
+```
 
 ※注意
 
