@@ -7,41 +7,41 @@ ng () {
 
 res=0
 
-out=$(./BMI.py 170 60)
+out=$(./bmi 170 60)
 expected="あなたのBMI値は20.76
 適正体重は63.6kg
 適正です"
 [ "${out}" = "${expected}" ] || ng "$LINENO"
 
-out=$(./BMI.py a a)
+out=$(./bmi a a)
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(./BMI.py a あ)
+out=$(./bmi a あ)
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(./BMI.py あ あ)
+out=$(./bmi あ あ)
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(./BMI.py あ a)
+out=$(./bmi あ a)
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(./BMI.py 170)
+out=$(./bmi 170)
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(./BMI.py a)
+out=$(./bmi a)
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(./BMI.py あ)
+out=$(./bmi あ)
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(./BMI.py)
+out=$(./bmi)
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
