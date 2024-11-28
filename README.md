@@ -1,4 +1,4 @@
-# BMIコマンド
+# bmiコマンド
 ![test](https://github.com/yuuya1086/robosys2024/actions/workflows/test.yml/badge.svg)
 
 ## 概要
@@ -10,7 +10,7 @@
 
 ## インストール方法
 
-以下の手順でコマンドをインストールしてください。
+gitがインストールされている方は以下の手順でコマンドをインストールしてください。
 
 - リポジトリをクローン
 ```bash
