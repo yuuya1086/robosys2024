@@ -9,7 +9,14 @@
 
 以下の手順でコマンドをインストールしてください。
 
-## 使用方法
+```bash
+リポジトリをクローン
+git clone https://github.com/yuuya1086/robosys2024.git
+
+cd robosys2024
+```
+
+## 実行方法
 
 - 身長170cm、体重60㎏の人のBMI値、適正体重を知りたいとき…
 ```bash
