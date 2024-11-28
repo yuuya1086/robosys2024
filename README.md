@@ -38,4 +38,4 @@ cd robosys2024
   - テスト済みバージョン: 3.7~3.10
 
 ## テスト環境
-- Ubuntu 24.04 LTS
+- Ubuntu 22.04 LTS
