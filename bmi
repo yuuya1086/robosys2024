@@ -4,8 +4,10 @@
 
 import sys
 
-n = float(sys.argv[1])
-m = float(sys.argv[2])
+data = sys.stdin.read().strip().split()
+
+n = float(data[0])
+m = float(data[1])
 
 n = n / 100
 
