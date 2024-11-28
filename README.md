@@ -42,7 +42,7 @@ cd robosys2024
 - このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布及び使用が許可されます。
 - このコマンドのBMI値、適正体重の計算方法は以下のサイトを基にコードを書いています。
 ```bash
-https://keisan.casio.jp/exec/system/1161228732
+https://medipalette.lotte.co.jp/diet/4696#h3-1
 ```
 - @ 2024 Yuuya Tanaka
 
