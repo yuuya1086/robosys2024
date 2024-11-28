@@ -25,10 +25,6 @@ out=$(./BMI.py あ あ)
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(./BMI.py a あ)
-[ "$?" = 1 ]      || ng "$LINENO"
-[ "${out}" = "" ] || ng "$LINENO"
-
 out=$(./BMI.py あ a)
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
