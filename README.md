@@ -13,8 +13,8 @@
 ```bash
 git clone https://github.com/yuuya1086/robosys2024.git
 ```
-```bash
 - robosys2024に移動
+```bash
 cd robosys2024
 ```
 
