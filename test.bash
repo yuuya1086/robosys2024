@@ -7,7 +7,7 @@ ng () {
 
 res=0
 
-out=$(cat ans | ./bmi)
+out=$(echo 170 60 | ./bmi)
 expected="あなたのBMI値は20.76
 適正体重は63.6kg
 適正です"
