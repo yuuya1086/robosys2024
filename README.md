@@ -34,14 +34,9 @@
 
 （例）身長170cm、体重60㎏の人のBMI値、適正体重を知りたいとき…
 
-- ansに身長[cm]、体重[kg]の順で入力。
+- ansに身長[cm]、体重[kg]の順で入力し実行。
 ```bash
-   echo 170 60 > ans
-```
-
-- 下記のように入力して実行する 
-```bash
-   cat ans | ./bmi
+   echo 170 60 | ./bmi
 ```
 
 ※注意
@@ -56,9 +51,9 @@
 
 - このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布及び使用が許可されます。
 - このコマンドのBMI値、適正体重の計算方法は以下のサイトを基にコードを書いています。
-```bash
-https://medipalette.lotte.co.jp/diet/4696#h3-1
-```
+
+[参考にしたサイト]https://medipalette.lotte.co.jp/diet/4696#h3-1
+
 - @ 2024 Yuuya Tanaka
 
 ## テスト環境
