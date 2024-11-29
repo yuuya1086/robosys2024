@@ -54,7 +54,7 @@
 
 　[参考にしたサイト](https://medipalette.lotte.co.jp/diet/4696#h3-1)
 
-- @ 2024 Yuuya Tanaka
+- © 2024 Yuuya Tanaka
 
 ## テスト環境
 - Ubuntu 22.04 LTS
